@@ -113,3 +113,18 @@ tl2.from("#three",
              scrub :5
          }
      })
+     gsap.from(".logos" ,{
+        transform : "scale(0)", 
+        duration: 2 , 
+        scrollTrigger: {
+            trigger: ".main2 #three",
+            scroller: "body",
+           
+            start: "top 95%",
+            end : "top 65% ",
+            scrub:5
+        }
+     })
+
+
+
