@@ -77,7 +77,7 @@ tl2.from("#three",
     //     }
     // })
     gsap.to(".main3 h3", {
-       transform : "translateX(-65%)"  , 
+       transform : "translateX(-125vw)"  , 
         scrollTrigger:{
             trigger:".main3",
             scroller: "body",
@@ -102,7 +102,7 @@ tl2.from("#three",
     //      }
     //  })
      gsap.to(".main5 h3", {
-        transform : "translateX(-70%)"  , 
+        transform : "translateX(-195vw)"  , 
          delay : 2 ,
          scrollTrigger:{
              trigger:".main5",
