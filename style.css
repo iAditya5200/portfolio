@@ -52,6 +52,9 @@ body {
     display: flex;
     gap: 25px;
 }
+#sub-nav a {
+    text-decoration: none;
+}
 
 .text {
     font-size: 60px;

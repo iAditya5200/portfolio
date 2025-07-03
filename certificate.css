@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: "Dosis", serif;
+    font-weight: 600;
+}
+
+html,
+body {
+    width: 100%;
+ overflow-x: hidden;
+ background-color: black;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#nav {
+    /* background-image: linear-gradient(rgb(4, 167, 10), rgb(5, 129, 40),rgb(50, 114, 39), rgb(16, 138, 71)); */
+    background-color: rgb(59, 59, 59);
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px ;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#logo {
+    font-size: x-large;
+}
+
+#sub-nav {
+    justify-content: space-around;
+    display: flex;
+    gap: 25px;
+}
+#sub-nav a {
+    text-decoration: none;
+}
+
+.cermain2{
+ height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.cermain2 h1{
+ font-size: 15vh;
+}
+.cermain2 h3{
+ font-size: 10vh;
+}
+.cermain2 .text{
+ margin-left: 40px;
+}
+.cer1{
+    margin: 20px;
+}
+
+.cermain3{
+ height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.cermain3 h1{
+ font-size: 15vh;
+}
+.cermain3 h3{
+ font-size: 10vh;
+}
+
+.cermain3 .text{
+ margin-left: 20px;
+ margin-right :10px ;
+}
