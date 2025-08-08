@@ -76,19 +76,7 @@ tl2.from("#three",
     //         scrub :1
     //     }
     // })
-    gsap.to(".main3 h3", {
-       transform : "translateX(-125vw)"  , 
-        scrollTrigger:{
-            trigger:".main3",
-            scroller: "body",
-            start :"top 0",
-            end : "top -150%",
-            pin:true,
-            scrub :2 ,
-            delay :2 ,
-            
-        }
-    })
+
     // gsap.to(".main4 h3", {
     //     x : "-59%" , 
     //      delay : 2 ,
@@ -101,18 +89,7 @@ tl2.from("#three",
     //          scrub :5
     //      }
     //  })
-     gsap.to(".main5 h3", {
-        transform : "translateX(-195vw)"  , 
-         delay : 2 ,
-         scrollTrigger:{
-             trigger:".main5",
-             scroller: "body",
-             start :"top 0",
-             end : "top -220%",
-             pin:true,
-             scrub :5
-         }
-     })
+    
      gsap.from(".logos" ,{
         transform : "scale(0)", 
         duration: 2 , 
@@ -123,6 +100,18 @@ tl2.from("#three",
             start: "top 95%",
             end : "top 65% ",
             scrub:5
+        }
+     })
+
+     gsap.from("#Resume" ,{
+        transform : "scale(0)", 
+        duration: 2 , 
+        scrollTrigger: {
+            trigger: ".Resume",
+            scroller: "body",
+            start: "top 95%",
+            end : "top 50% ",
+            scrub:2
         }
      })
 

@@ -6,7 +6,16 @@
     font-family: "Dosis", serif;
     font-weight: 600;
 }
-
+@media screen and (min-width: 1000px){
+    #displayModal{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px){
+    #displayModal{
+        display: flex;
+    }
+}
 html,
 body {
     width: 100%;
@@ -101,10 +110,10 @@ body {
   align-items: center;
 }
 .main3 h3{
-    padding: 0;
-    margin: 0;
+  
+    margin: auto;
     color: black;
-    font-size: 65vh;
+    font-size: 25vh;
     color: aliceblue;
 }
 .main5{
@@ -143,4 +152,27 @@ body {
     padding-top: 5px;
     padding-left: 3px;
     font-size: 60px;
+}
+.Resume{
+  
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+.Resume button{
+    width:20%;
+    background-color: rgb(21, 21, 39);
+    padding: 10px 20px ;
+    border: none;
+    font-size: 8vh;
+   border-radius:50px;
+  
+}
+.Resume a {
+ text-decoration: none;
+ text-transform: capitalize;
+}
+
+.Resume :hover {
+    background-color: slategrey;
 }
