@@ -154,25 +154,121 @@ body {
     font-size: 60px;
 }
 .Resume{
-  
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 20%;
+    justify-content: space-evenly;
 }
-.Resume button{
-    width:20%;
+
+#resumeDownloader {
+text-align: center;
+    width:80%;
     background-color: rgb(21, 21, 39);
     padding: 10px 20px ;
     border: none;
     font-size: 8vh;
-   border-radius:50px;
+    border-radius:50px;
   
+}
+#resumeDownloader:hover {
+    background-color: slategrey;
+}
+.resumeHeading{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 100px;
+
+
 }
 .Resume a {
  text-decoration: none;
  text-transform: capitalize;
 }
 
-.Resume :hover {
+#resumeDownloader :hover {
     background-color: slategrey;
+}
+
+/* ================================
+   Resume Blog Component (Scoped)
+   ================================ */
+.resume-blog {
+  font-family: "Dosis", serif;
+  font-weight: 600;
+  background-color: rgb(21, 21, 39);
+  border: 1px solid rgb(59, 59, 59);
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  color: aliceblue;
+  margin: 0 auto;
+}
+
+.resume-blog h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.resume-blog .resume-summary {
+  font-size: 1rem;
+  color: rgb(200, 200, 200);
+}
+
+.resume-blog .resume-section {
+  margin-top: 20px;
+}
+
+.resume-blog .resume-section h3 {
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+  color: aliceblue;
+  border-bottom: 1px solid rgb(59, 59, 59);
+  padding-bottom: 4px;
+}
+
+.resume-blog .resume-item {
+  margin-bottom: 12px;
+}
+
+.resume-blog .resume-item strong {
+  color: aliceblue;
+}
+
+.resume-blog .resume-item .date {
+  font-size: 0.85rem;
+  color: rgb(170, 170, 170);
+}
+
+.resume-blog ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resume-blog ul li {
+  margin-bottom: 6px;
+  color: rgb(220, 220, 220);
+}
+
+.resume-blog .skills {
+  color: rgb(200, 200, 200);
+  font-size: 0.95rem;
+}
+
+.resume-blog .resume-footer {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: rgb(170, 170, 170);
+}
+
+.resume-blog .resume-footer a {
+  color: #6ee7b7; /* Accent green */
+  text-decoration: none;
+}
+
+.resume-blog .resume-footer a:hover {
+  text-decoration: underline;
 }
